@@ -11,7 +11,7 @@ const controls = [
 
 const BuildControls = (props) => (
   <div className={cssClasses.BuildControls}>
-    <p>Current price: <strong> {props.totalPrice.toFixed(2)} </strong></p>
+    <p>Current price: <strong> {props.totalPrice.toFixed(2)}$</strong></p>
     {controls.map((control) => (
       <BuildControl
         disabledLess={!props.ingredientsInfo[control.type]}
