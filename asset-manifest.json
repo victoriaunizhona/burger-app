@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/burger-app/static/css/main.f0371d27.chunk.css",
-    "main.js": "/burger-app/static/js/main.c41c256a.chunk.js",
-    "main.js.map": "/burger-app/static/js/main.c41c256a.chunk.js.map",
+    "main.js": "/burger-app/static/js/main.8e242a01.chunk.js",
+    "main.js.map": "/burger-app/static/js/main.8e242a01.chunk.js.map",
     "runtime-main.js": "/burger-app/static/js/runtime-main.b5723e9c.js",
     "runtime-main.js.map": "/burger-app/static/js/runtime-main.b5723e9c.js.map",
     "static/js/2.25112ea1.chunk.js": "/burger-app/static/js/2.25112ea1.chunk.js",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.b5723e9c.js",
     "static/js/2.25112ea1.chunk.js",
     "static/css/main.f0371d27.chunk.css",
-    "static/js/main.c41c256a.chunk.js"
+    "static/js/main.8e242a01.chunk.js"
   ]
 }
