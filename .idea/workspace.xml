@@ -2,29 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fa2f7556-92ee-4b67-b1e9-35c3b343d17d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/axios-orders.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Burger/OrderSummary/OrderSummary.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Order/CheckoutSummary/CheckoutSummary.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Order/CheckoutSummary/CheckoutSummary.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ui/Spinner/Spinner.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ui/Spinner/Spinner.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/Checkout/Checkout.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/Checkout/ContactData/ContactData.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/Checkout/ContactData/ContactData.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/Orders/Order/Order.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/Orders/Order/Order.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/Orders/Orders.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hoc/withErrorHandler/WithErrorHandler.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ui/Input/Input.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ui/Input/Input.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Checkout/ContactData/contact-form.contant.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/actions/actionTypes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/actions/burgerBuilder.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/actions/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/actions/order.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/reducers/burgerBuilder.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/reducers/order.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/utility.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Burger/Burger.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Burger/Burger.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Burger/OrderSummary/OrderSummary.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Burger/OrderSummary/OrderSummary.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Navigation/NavigationItems/NavigationItem/NavigationItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navigation/NavigationItems/NavigationItem/NavigationItem.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Navigation/NavigationItems/NavigationItems.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navigation/NavigationItems/NavigationItems.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ui/Modal/Modal.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ui/Modal/Modal.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ui/Button/Button.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ui/Button/Button.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/containers/BurgerBuilder/BurgerBuilder.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/BurgerBuilder/BurgerBuilder.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/Checkout/Checkout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Checkout/Checkout.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/Checkout/ContactData/ContactData.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Checkout/ContactData/ContactData.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/Checkout/ContactData/ContactData.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Checkout/ContactData/ContactData.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/Orders/Orders.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Orders/Orders.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -64,13 +61,15 @@
     <property name="prettierjs.PrettierConfiguration.Package" value="C:\Users\User\AppData\Roaming\npm\node_modules\prettier" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\User\Desktop\Projects\burger\public" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\User\Desktop\Projects\burger\src\store\actions" />
+      <recent name="C:\Users\User\Desktop\Projects\burger\src\store\reducers" />
       <recent name="C:\Users\User\Desktop\Projects\burger\src\hoc" />
       <recent name="C:\Users\User\Desktop\Projects\burger\src\components\Navigation\NavigationItems" />
       <recent name="C:\Users\User\Desktop\Projects\burger\src\assets\images" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\User\Desktop\Projects\burger\public" />
     </key>
   </component>
   <component name="RunManager" selected="npm.npm start">
@@ -109,8 +108,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.deploy" />
         <item itemvalue="npm.build" />
+        <item itemvalue="npm.deploy" />
       </list>
     </recent_temporary>
   </component>
@@ -128,7 +127,11 @@
       <workItem from="1609594392851" duration="41910000" />
       <workItem from="1610698432073" duration="4746000" />
       <workItem from="1610814202983" duration="2194000" />
-      <workItem from="1611040980482" duration="12483000" />
+      <workItem from="1611040980482" duration="25176000" />
+      <workItem from="1611562057288" duration="8398000" />
+      <workItem from="1612164860832" duration="15219000" />
+      <workItem from="1612347287622" duration="4502000" />
+      <workItem from="1612704839938" duration="4105000" />
     </task>
     <task id="LOCAL-00001" summary="Added Burger Builder and Order Modal">
       <created>1609661563489</created>
@@ -144,7 +147,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609767915554</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added Routing and Server managing">
+      <created>1611064975776</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1611064975776</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -153,51 +163,57 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added Burger Builder and Order Modal" />
     <MESSAGE value="Finished Burger Builder" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finished Burger Builder" />
+    <MESSAGE value="Added Routing and Server managing" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Routing and Server managing" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="391" y="131" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1609683577497">
+    <state x="391" y="131" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1611669049767">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="391" y="131" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1609527590782" />
-    <state x="391" y="131" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.680/5.-1080.1920.1040@0.0.1280.680" timestamp="1609683577497" />
+    <state x="391" y="131" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.680/5.-1080.1920.1040@0.0.1280.680" timestamp="1611669049767" />
     <state x="371" y="88" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1609518655286">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="371" y="88" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1609518655286" />
-    <state x="263" y="0" key="CommitChangelistDialog2" timestamp="1609767913984">
+    <state x="263" y="0" key="CommitChangelistDialog2" timestamp="1611064974271">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="263" y="0" key="CommitChangelistDialog2/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1609661561985" />
-    <state x="263" y="0" key="CommitChangelistDialog2/0.0.1280.680/5.-1080.1920.1040@0.0.1280.680" timestamp="1609767913984" />
+    <state x="263" y="0" key="CommitChangelistDialog2/0.0.1280.680/5.-1080.1920.1040@0.0.1280.680" timestamp="1611064974271" />
     <state x="93" y="93" width="1095" height="495" key="DiffContextDialog" timestamp="1609661524623">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="93" y="93" width="1095" height="495" key="DiffContextDialog/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1609661524623" />
-    <state width="1259" height="15" key="GridCell.Tab.0.bottom" timestamp="1611064947802">
+    <state x="0" y="196" key="FileDocumentManager.FileCacheConflict" timestamp="1612165345185">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="0" y="196" key="FileDocumentManager.FileCacheConflict/0.0.1280.680/5.-1080.1920.1040@0.0.1280.680" timestamp="1612165345185" />
+    <state width="629" height="260" key="GridCell.Tab.0.bottom" timestamp="1612706566607">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1259" height="353" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1609661463072" />
-    <state width="1259" height="15" key="GridCell.Tab.0.bottom/0.0.1280.680/5.-1080.1920.1040@0.0.1280.680" timestamp="1611064947802" />
-    <state width="1259" height="15" key="GridCell.Tab.0.center" timestamp="1611064947802">
+    <state width="629" height="260" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1612706566607" />
+    <state width="629" height="260" key="GridCell.Tab.0.center" timestamp="1612706566607">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1259" height="353" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1609661463072" />
-    <state width="1259" height="15" key="GridCell.Tab.0.center/0.0.1280.680/5.-1080.1920.1040@0.0.1280.680" timestamp="1611064947802" />
-    <state width="1259" height="15" key="GridCell.Tab.0.left" timestamp="1611064947801">
+    <state width="629" height="260" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1612706566607" />
+    <state width="629" height="260" key="GridCell.Tab.0.left" timestamp="1612706566607">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1259" height="353" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1609661463072" />
-    <state width="1259" height="15" key="GridCell.Tab.0.left/0.0.1280.680/5.-1080.1920.1040@0.0.1280.680" timestamp="1611064947801" />
-    <state width="1259" height="15" key="GridCell.Tab.0.right" timestamp="1611064947802">
+    <state width="629" height="260" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1612706566607" />
+    <state width="629" height="260" key="GridCell.Tab.0.right" timestamp="1612706566607">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1259" height="353" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1609661463072" />
-    <state width="1259" height="15" key="GridCell.Tab.0.right/0.0.1280.680/5.-1080.1920.1040@0.0.1280.680" timestamp="1611064947802" />
-    <state x="127" y="35" width="841" height="568" key="find.popup" timestamp="1611062320396">
+    <state width="629" height="260" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1612706566607" />
+    <state x="127" y="35" width="841" height="568" key="find.popup" timestamp="1612706481968">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="127" y="35" width="841" height="568" key="find.popup/0.0.1280.680/5.-1080.1920.1040@0.0.1280.680" timestamp="1611062320396" />
+    <state x="127" y="35" width="841" height="568" key="find.popup/0.0.1280.680/5.-1080.1920.1040@0.0.1280.680" timestamp="1612185952663" />
+    <state x="127" y="35" width="841" height="568" key="find.popup/0.0.1280.680@0.0.1280.680" timestamp="1612706481968" />
     <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1609520261968">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
