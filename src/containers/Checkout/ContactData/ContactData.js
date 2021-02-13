@@ -6,8 +6,10 @@ import Spinner from "../../../components/ui/Spinner/Spinner";
 import Input from "../../../components/ui/Input/Input";
 import {connect} from 'react-redux';
 import WithErrorHandler from '../../../hoc/withErrorHandler/WithErrorHandler';
-import * as actions from '../../../store/actions/index'
-import CONTACT_DATA_FORM from './contact-form.contant'
+import * as actions from '../../../store/actions/index';
+import CONTACT_DATA_FORM from './contact-form.contant';
+import  {updateObject} from '../../../shared/utility';
+import {checkValidity} from '../../../shared/validation';
 
 class ContactData extends Component {
   state = {
@@ -18,35 +20,24 @@ class ContactData extends Component {
     return Object.entries(this.state.orderForm).every(([key, value]) => value.valid)
   }
 
-  checkValidity(value, rules) {
-    let isValid = true;
-    if (rules.required) {
-      isValid = value.trim() !== "" && isValid;
-    }
-
-    if (rules.minLength) {
-      isValid = value.length > rules.minLength && isValid;
-    }
-
-    if (rules.maxLength) {
-      isValid = value.length < rules.maxLength && isValid;
-    }
-    return isValid;
-  }
-
   inputChangedHandler = (event, inputIdentifier) => {
-    const updatedOrderForm = {
-      ...this.state.orderForm,
-    };
 
-    const updatedFormEl = { ...updatedOrderForm[inputIdentifier] };
-    updatedFormEl.value = event.target.value;
-    updatedFormEl.valid = this.checkValidity(
-      updatedFormEl.value,
-      updatedFormEl.validation
-    );
-    updatedFormEl.touched = true;
-    updatedOrderForm[inputIdentifier] = updatedFormEl;
+
+    const updatedFormEl =  updateObject(this.state.orderForm[inputIdentifier], {
+      value: event.target.value,
+      valid: checkValidity(
+          event.target.value,
+          this.state.orderForm[inputIdentifier].validation
+      ),
+      touched: true
+    });
+
+    const updatedOrderForm = updateObject(
+     this.state.orderForm,
+        {
+          [inputIdentifier]: updatedFormEl
+        });
+
     this.setState({ orderForm: updatedOrderForm });
   };
 
@@ -62,9 +53,10 @@ class ContactData extends Component {
       ingredients: this.props.ings,
       price: this.props.price,
       orderData: formData,
+      userId: this.props.userId
     };
 
-    this.props.onOrderBurger(order);
+    this.props.onOrderBurger(order, this.props.token);
   };
 
   render() {
@@ -112,12 +104,14 @@ const mapStateToProps = state => {
   return {
     ings: state.burgerBuilderReducer.ingredients,
     price: state.burgerBuilderReducer.totalPrice,
-    loading: state.orderReducer.loading
+    loading: state.orderReducer.loading,
+    token: state.auth.token,
+    userId: state.auth.userId
   }
 };
 const mapDispatchToProps = dispatch => {
   return {
-    onOrderBurger: (orderData) =>  dispatch(actions.purchaseBurger(orderData))
+    onOrderBurger: (orderData, token) =>  dispatch(actions.purchaseBurger(orderData, token))
   }
 };
 
