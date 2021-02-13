@@ -29,7 +29,7 @@ const app = (
 
 ReactDOM.render(
   <React.StrictMode>
-  {app}
+      {app}
   </React.StrictMode>,
   document.getElementById('root')
 );
