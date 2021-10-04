@@ -27,7 +27,7 @@ sagaMiddleWare.run(watchAuth);
 
 const app = (
     <Provider store={store}>
-    <BrowserRouter basename="/burger-app/">
+    <BrowserRouter basename="/ /">
         <App />
     </BrowserRouter>
     </Provider>
